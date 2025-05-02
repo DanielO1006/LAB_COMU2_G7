@@ -1,2 +1,5 @@
-# COMU_II
-Este es el repositorio del grupo 07 del Laboratorio de Comunicaciones II. Los integrantes son: Jairo Andrés Moreno Lamus - 2212903. Daniel Felipe Orduz Pinzón - 2202333, Ángel Ricardo Castro Jaimes - 2200501
+Práctica #4
+
+Durante esta práctica se implementó un sistema de transmisión digital basado en modulación M-PSK, utilizando exclusivamente software (GNU Radio) como entorno de simulación. El objetivo principal fue comprender el funcionamiento de esta técnica moduladora y su representación en forma de envolvente compleja. A lo largo del ejercicio se programaron bloques para generar señales VCO, se construyeron tablas de verdad personalizadas y se analizó la salida modulada tanto en dominio temporal como en el espectro de potencia (PSD). También se evaluó el comportamiento de las constelaciones ante la presencia de ruido.
+
+Además, se compararon distintos esquemas moduladores, incluyendo una versión Q-PSK, para observar diferencias en parámetros como el ancho de banda, velocidad de bits y símbolos. Finalmente, se propuso y analizó una constelación diseñada por los integrantes del grupo, permitiendo concluir sobre la flexibilidad del sistema y la importancia del correcto ordenamiento de símbolos en las constelaciones. Esta práctica sentó las bases para integrar hardware SDR en ejercicios posteriores.
